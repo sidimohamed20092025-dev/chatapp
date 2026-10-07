@@ -1,0 +1,30 @@
+{
+  "id": "gemini-chat",
+  "name": "Gemini Chat",
+  "short_name": "Gemini Chat",
+  "description": "A simple ChatGPT-style chat app powered by your own Google Gemini API key.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4f46e5",
+  "background_color": "#0f1117",
+  "lang": "en",
+  "dir": "auto",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "screenshots": [
+    {"src": "screenshots/narrow.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow", "label": "Chat"},
+    {"src": "screenshots/wide.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Chat"}
+  ],
+  "shortcuts": [
+    {"name": "New chat", "short_name": "New chat", "description": "Start a fresh conversation", "url": "./?new=1",
+     "icons": [{"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]}
+  ],
+  "launch_handler": {"client_mode": "navigate-existing"}
+}
